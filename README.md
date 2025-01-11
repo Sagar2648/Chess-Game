@@ -6,6 +6,7 @@ Highlighting legal moves.
 Checking for checkmate and stalemate.
 Providing move history (e.g., "Piece moved from e2 to e4").
 Restarting the game through a "New Game" button.
+  Contains Special Cases like: Pawn Promotion, Castling, En passant
 The game implements the rules of chess and offers an interactive way to enjoy the game locally.
 
 Features
@@ -16,11 +17,13 @@ Validation of moves.
 Move History:
 Displays each move in a human-readable format.
 For example: "Pawn moved from e2 to e4."
+
 Game Controls:
 Start a new game at any time using a "New Game" button.
 Quit the game using the quit button.
 Change the theme of the game using the button ”T”.
 Restart the game using the button ”R”
+
 Endgame Detection:
 Displays the winner if checkmate occurs.
 Displays "Draw" for stalemates.
