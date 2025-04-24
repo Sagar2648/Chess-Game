@@ -1,70 +1,61 @@
-Chess Game Project
-Overview
-This project is a Python-based chess game application built using Pygame. It allows players to play a two-player chess game with features such as:
-Displaying board and pieces.
-Highlighting legal moves.
-Checking for checkmate and stalemate.
-Providing move history (e.g., "Piece moved from e2 to e4").
-Restarting the game through a "New Game" button.
-  Contains Special Cases like: Pawn Promotion, Castling, En passant
-The game implements the rules of chess and offers an interactive way to enjoy the game locally.
 
-Features
-Chess Rules Implementation:
-Moves follow standard chess rules.
-Detection of check and checkmate.
-Validation of moves.
-Move History:
-Displays each move in a human-readable format.
-For example: "Pawn moved from e2 to e4."
+# ♟️ Chess Game
 
-Game Controls:
-Start a new game at any time using a "New Game" button.
-Quit the game using the quit button.
-Change the theme of the game using the button ”T”.
-Restart the game using the button ”R”
-
-Endgame Detection:
-Displays the winner if checkmate occurs.
-Displays "Draw" for stalemates.
+A fully functional Chess game built using **Python** and **Pygame**, featuring intuitive controls, turn-based logic, and a clean board UI.
 
 
+## 🕹️ Features
 
+- Classic 8x8 chessboard layout
+- Drag and drop piece movement
+- Turn-based play (White and Black)
+- Legal move validation
+- Piece highlighting and move indicators
+- Reset game functionality
 
-How to Run the Game
-Install the required libraries:
-Pygame (Ensure it is installed via pip):
-bash
-Copy code
+## 📦 Technologies Used
+
+- **Python 3**
+- **Pygame**
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have Python and Pygame installed.
+
+```bash
 pip install pygame
+```
 
+### Run the Game
 
-Run the game:
-Execute the main Python file using:
-bash
-Copy code
+```bash
 python main.py
+```
+
+> The game window will open. Click and drag the pieces to make your moves!
+
+## 📁 Project Structure
+
+```
+Chess-Game/
+│
+├── main.py            # Entry point for the game
+├── game/              # Game logic and utilities
+│   ├── board.py
+│   ├── piece.py
+│   └── ...
+├── assets/            # Images or other assets (if any)
+└── README.md
+```
 
 
-Enjoy playing chess!
+## 🧑‍💻 Author
 
-Project Structure
-main.py: Contains the main game loop and overall structure.
-chess_game.py: Contains the logic for chessboard setup, piece movements, and game state validation.
-move_tracker.py: Tracks and displays move history.
-game_controls.py: Handles buttons like "New Game" and "Quit."
+- [@Sagar2648](https://github.com/Sagar2648)
 
-Instructions for Play
-Starting the Game:
-Run main.py.
-A chessboard will appear with pieces in their initial positions.
-Making Moves:
-Click
+## 🙌 Contributions
 
-
-Students:
-Group Name: GroupZ
-Students:
-Sagar Bhusal(44443391)
-Hemant Kumar(56010482)
+Pull requests and suggestions are welcome! Feel free to fork the repo and open a PR.
 
