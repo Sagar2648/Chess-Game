@@ -54,6 +54,7 @@ Chess-Game/
 ## 🧑‍💻 Author
 
 - [@Sagar2648](https://github.com/Sagar2648)
+- [@hemantk77](https://github.com/hemantk77)
 
 ## 🙌 Contributions
 
