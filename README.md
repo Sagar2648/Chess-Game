@@ -55,6 +55,7 @@ Chess-Game/
 
 - [@Sagar2648](https://github.com/Sagar2648)
 - [@hemantk77](https://github.com/hemantk77)
+- [@durig}(https://github.com/durig)
 
 ## 🙌 Contributions
 
